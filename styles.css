@@ -1,0 +1,32 @@
+.container {
+background-color:#f7cd4d;
+ max-width: 600px;
+padding: 20px;
+margin: 0 auto;
+display: block;
+}
+
+body{
+  background:#f79f23;
+  font-family:"Arial";
+}
+
+h1{
+  color:#c41010;
+  font-family:"Times New Roman";
+  
+}
+@media (max-width: 500px) {
+ 
+  .container{
+background-color:#f7cd4d;
+width: 400px;
+padding: 10px;
+display: block;
+justify-content: start; 
+align-items: start;     
+height: 100vh;          
+width: 100%;
+  } 
+  
+}
